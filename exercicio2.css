@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box;
+    margin: 10;
+    padding: 0;
+}
+
+body > header {
+    background-color: rgba(103, 98, 76, 0.929);
+    padding: 8px 0;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header li {
+    margin-left: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    display: inline
+}
+
+header li a {
+    color: black;
+    text-decoration: none;
+}
+
+.container {
+    width: 1366px;
+    margin: 0 auto
+}
+
+.articles {
+    margin: 0px 10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article img{
+    /*height: 180px;*/
+    width: 100%
+}
+
+img{
+    height: 300px;
+}
+
+.articles article{
+    width: 30%;
+}
+
+section {
+    padding: 16px 0;
+}
+
+section h2, 
+.articles article {  
+    margin-bottom: 16px;
+}
+
+.articles article h3 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.articles article a {
+    background-color: bisque;
+    color: brown;
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.articles article a:hover {
+    text-decoration: underline;
+}
+
+.articles article p,
+.article article a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.article article h3 {
+    font-size: 24px;
+}
+
+section h2{
+    font-size: 32px;
+    margin: 0px 0px 1% 10%;
+}
+
+#sports {
+    background-color: rgba(0, 255, 0, 0.1);
+}
+
+#sports .article article a {
+    background-color: #009432;
+}
+
+#economy {
+    background-color: #eeea86;
+}
+
+#economy .articles article a{
+    background-color: #ff9f1a;
+}
+
+#beauty {
+    background-color: rgba(145, 52, 52, 0.504);
+}
+
+#beauty .articles article a {
+    background-color: rgb(244, 185, 185);
+}
+
+#pets { 
+    background-color: rgba(88, 48, 152, 0.444);
+}
+
+#pets .articles article a {
+    background-color: rgb(111, 129, 163);
+}
